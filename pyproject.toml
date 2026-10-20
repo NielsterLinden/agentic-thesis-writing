@@ -1,0 +1,21 @@
+[project]
+name = "agentic-thesis-writing"
+version = "0.1.0"
+description = "Research agents and writing agents for a LaTeX thesis, connected by handoff notes."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Niels ter Linden" }]
+
+# This is not a pip package: the scripts are standard library only and are copied into
+# thesis repositories by scripts/atw.py. The table above exists for tooling metadata.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]

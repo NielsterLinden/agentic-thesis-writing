@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this kit, please cite it as below."
+title: "agentic-thesis-writing: research agents and writing agents for a LaTeX thesis, connected by handoff notes"
+type: software
+authors:
+  - family-names: "ter Linden"
+    given-names: "Niels"
+repository-code: "https://github.com/NielsterLinden/agentic-thesis-writing"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-20
+keywords:
+  - thesis
+  - latex
+  - coding-agents
+  - claude-code
+  - academic-writing
+  - handoff-notes

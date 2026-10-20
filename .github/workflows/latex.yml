@@ -1,0 +1,32 @@
+name: latex
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "templates/thesis/**"
+      - ".github/workflows/latex.yml"
+  pull_request:
+    paths:
+      - "templates/thesis/**"
+      - ".github/workflows/latex.yml"
+
+jobs:
+  build-template:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the thesis template with XeLaTeX and biber
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: templates/thesis
+          root_file: report.tex
+          latexmk_use_xelatex: true
+      - name: Report page count
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pdfinfo templates/thesis/report.pdf | grep Pages
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thesis-template-pdf
+          path: templates/thesis/report.pdf

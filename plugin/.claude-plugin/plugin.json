@@ -1,0 +1,14 @@
+{
+  "name": "agentic-thesis-writing",
+  "displayName": "Agentic thesis writing",
+  "version": "0.1.0",
+  "description": "Research agents and writing agents for a LaTeX thesis, connected by handoff notes. Agents: researcher, thesis-writer, reviewer, thesis-finalizer, thesis-polisher, writing-rules-checker, deck-planner. Skills for evidence notes, handoff notes, figure import, data inventory, claim tracing, latexmk builds, TU Delft writing rules, and thesis-to-deck planning with manim-hep.",
+  "author": {
+    "name": "Niels ter Linden",
+    "url": "https://github.com/NielsterLinden"
+  },
+  "homepage": "https://github.com/NielsterLinden/agentic-thesis-writing",
+  "repository": "https://github.com/NielsterLinden/agentic-thesis-writing",
+  "license": "MIT",
+  "keywords": ["thesis", "latex", "academic-writing", "handoff", "evidence", "tu-delft", "manim", "presentation"]
+}

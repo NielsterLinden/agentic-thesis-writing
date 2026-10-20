@@ -1,0 +1,93 @@
+\chapter{Results Chapter Template}
+\label{ch:results-template}
+
+% ======================================================================================
+% The mini-thesis scaffold for a results chapter (thesis-writer.md, "Results-chapter
+% scaffold"). Copy this file to <NN>_<slug>.tex, keep the anchors, replace the text.
+%
+%   MANDATORY anchors (reviewer raises [MAJOR] when missing):
+%     per experiment:   \paragraph{Hypothesis.}
+%     chapter closing:  \paragraph{Limitations.}  \paragraph{Bridge.}
+%   RECOMMENDED:        \paragraph{Lens.}  \paragraph{Factors.}
+%                       \paragraph{Domain conclusion.}  \paragraph{Method conclusion.}
+%   OPTIONAL:           \paragraph{Chapter baseline.}
+%
+% Every number in this chapter traces to an evidence note in docs/evidence_notes/ with
+% Status: run-complete or interpreted. A pending value is written as \todo{value pending}.
+% ======================================================================================
+
+% --- Chapter intro (no \section header): 1 to 3 paragraphs -----------------------------
+% Which factors this chapter studies; why they are interesting (domain and/or method
+% lens); a brief roadmap; optionally a one-sentence preview of the answer.
+
+\todo{Chapter intro: factors under study, why they matter, roadmap.} The chapter opens
+by naming the factors it studies and the question it answers. It then previews the
+structure, so that the reader knows which experiment answers which part.
+
+\section{Experimental setup}
+\label{sec:ch2-setup}
+
+% Shared baseline (factors not under study held at their defaults); a design table per
+% experiment; the evaluation metric; the seed policy; one line per experiment to come.
+
+\todo{Shared baseline, design table, metric, seed policy.} The baseline configuration
+holds every factor not under study at its default value. The metric and the seed policy
+are stated once here and not repeated in the experiment sections.
+
+\section{Experiment 1}
+\label{sec:ch2-experiment-1}
+
+% Opening paragraph (no heading): motivation for THIS experiment, distinct from the
+% chapter intro.
+
+\todo{Motivation for this experiment, from the domain or the method.} The paragraph
+states what this experiment adds beyond the chapter intro. It ends by naming the factor
+that is swept.
+
+\subsection{Setup}
+\label{sec:ch2-experiment-1-setup}
+
+\paragraph{Lens.} \todo{Performance, interpretability, efficiency or robustness: one
+sentence per lens.}
+
+\paragraph{Factors.} \todo{What is swept (identifier, options) and what is held fixed.}
+
+\paragraph{Hypothesis.} (i)~\todo{A falsifiable claim, with its reason as a clause.}
+(ii)~\todo{A second claim, if the experiment tests one.}
+
+\subsection{Results}
+\label{sec:ch2-experiment-1-results}
+
+% Facts only. One paragraph per lens, in Setup order. Every figure and table named via
+% \ref before it appears. No interpretation here.
+
+\todo{Results per lens, referencing figures and tables.} The paragraph reports the
+numbers, the trends and the patterns that the figures show. It does not interpret them.
+
+\subsection{Discussion}
+\label{sec:ch2-experiment-1-discussion}
+
+% Per hypothesis, in the same numbered order as Setup: confirmed, partly confirmed or
+% refuted against the seed spread, then one or two sentences on the "why".
+
+\todo{Verdict per hypothesis against the seed spread, then the soft why.} Hypothesis (i)
+is addressed first and hypothesis (ii) second. A result within the seed spread is
+reported as indistinguishable from the baseline at this seed budget.
+
+\section{Discussion}
+\label{sec:ch2-discussion}
+
+\todo{Two or three sentences synthesising the experiments.} The synthesis states the
+headline finding of the chapter. It connects the experiments to the question posed in the
+chapter intro.
+
+\paragraph{Domain conclusion.} \todo{What the findings mean in the domain, hedged.}
+
+\paragraph{Method conclusion.} \todo{What the findings mean for the method; quantify the
+headline effect once, here.}
+
+\paragraph{Limitations.} \todo{Three to five concrete caveats: seed budget, controls not
+run, scope of the data or the model, factors not separable in this design.}
+
+\paragraph{Bridge.} \todo{What is carried forward to the next chapter, and what is
+deferred.}

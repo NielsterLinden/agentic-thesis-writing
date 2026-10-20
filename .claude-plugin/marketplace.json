@@ -1,0 +1,18 @@
+{
+  "name": "agentic-thesis-writing",
+  "owner": {
+    "name": "Niels ter Linden",
+    "url": "https://github.com/NielsterLinden"
+  },
+  "metadata": {
+    "description": "Research agents and writing agents for a LaTeX thesis, connected by handoff notes: evidence notes, TeX build, TU Delft writing rules, review, finalize, polish, and a bridge to manim-hep for the defence talk."
+  },
+  "plugins": [
+    {
+      "name": "agentic-thesis-writing",
+      "source": "./plugin",
+      "description": "Write a LaTeX thesis with a research agent and a writing agent that hand work over through evidence notes and handoff notes; build the TeX, review and polish against TU Delft writing rules, and plan the defence deck.",
+      "category": "productivity"
+    }
+  ]
+}
