@@ -1,6 +1,6 @@
 ---
 name: data-inventory
-description: Inspect what already exists for a set of runs (checkpoints, results, figures) under the data root and recommend the cheapest entry point (D reuse > C recompute > E bespoke > B re-derive > A new run) before any code or job work begins. Always the researcher's first step.
+description: "Inspect what already exists for a set of runs (checkpoints, results, figures) under the data root and recommend the cheapest entry point (D reuse > C recompute > E bespoke > B re-derive > A new run) before any code or job work begins. Always the researcher's first step."
 ---
 
 # data-inventory

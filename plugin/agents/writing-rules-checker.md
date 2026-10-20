@@ -1,6 +1,6 @@
 ---
 name: writing-rules-checker
-description: Read-only check of .tex files against the project's writing rules (TU Delft conventions by default). Runs the mechanical linter, then reads for what the linter cannot see (paragraph structure, hedging, information flow, figure placement) and returns a numbered, severity-tagged list. Never edits; the user takes items to /polish-write. Invoked by /check-writing.
+description: "Read-only check of .tex files against the project's writing rules (TU Delft conventions by default). Runs the mechanical linter, then reads for what the linter cannot see (paragraph structure, hedging, information flow, figure placement) and returns a numbered, severity-tagged list. Never edits; the user takes items to /polish-write. Invoked by /check-writing."
 tools: Read, Glob, Grep, Bash
 ---
 

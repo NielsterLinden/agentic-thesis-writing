@@ -1,6 +1,6 @@
 ---
-description: Sentence- and paragraph-level prose or caption polish; reads the whole chapter, proposes one focused edit at a time. Runs the thesis-polisher in write mode.
-argument-hint: <chN | chN.S | path-to-tex> ["quoted instruction, e.g. split the second sentence of 4.2"]
+description: "Sentence- and paragraph-level prose or caption polish; reads the whole chapter, proposes one focused edit at a time. Runs the thesis-polisher in write mode."
+argument-hint: "<chN | chN.S | path-to-tex> [\"quoted instruction, e.g. split the second sentence of 4.2\"]"
 ---
 
 Invoke the `thesis-polisher` subagent in **write mode** for `$ARGUMENTS`. If subagents are

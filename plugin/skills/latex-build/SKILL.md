@@ -1,6 +1,6 @@
 ---
 name: latex-build
-description: Build the thesis PDF with latexmk (XeLaTeX + biber by default), read the log correctly when it fails, and decide what is yours to fix. Use after every edit to a .tex file and whenever the rendered PDF is needed.
+description: "Build the thesis PDF with latexmk (XeLaTeX + biber by default), read the log correctly when it fails, and decide what is yours to fix. Use after every edit to a .tex file and whenever the rendered PDF is needed."
 ---
 
 # latex-build

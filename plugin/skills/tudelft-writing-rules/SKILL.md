@@ -1,6 +1,6 @@
 ---
 name: tudelft-writing-rules
-description: The writing rules for thesis prose (TU Delft academic-writing conventions, condensed), a linter that catches the mechanical ones, and the procedure for applying them. Load before drafting, reviewing or polishing any .tex prose.
+description: "The writing rules for thesis prose (TU Delft academic-writing conventions, condensed), a linter that catches the mechanical ones, and the procedure for applying them. Load before drafting, reviewing or polishing any .tex prose."
 ---
 
 # tudelft-writing-rules

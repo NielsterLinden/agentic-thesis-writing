@@ -17,6 +17,29 @@ def frontmatter(path: Path) -> dict[str, str]:
     return out
 
 
+YAML_UNSAFE_START = tuple("[{>|&*!%@`'\"")
+
+
+def test_frontmatter_values_are_yaml_safe(root: Path):
+    """Strict YAML rejects unquoted values with ': ' or ' #', or starting with flow/indicator
+    characters. Newer Claude Code validators parse frontmatter strictly."""
+    files = (list((root / "plugin" / "agents").glob("*.md"))
+             + list((root / "plugin" / "commands").glob("*.md"))
+             + list((root / "plugin" / "skills").glob("*/SKILL.md")))
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        head = text.split("\n---\n", 1)[0][4:]
+        for line in head.splitlines():
+            m = re.match(r"^([A-Za-z_-]+):\s*(.*)$", line)
+            assert m, f"{f}: unexpected frontmatter line {line!r}"
+            key, val = m.group(1), m.group(2)
+            if val.startswith('"') and val.endswith('"'):
+                assert '"' not in val[1:-1].replace('\\"', ""), f"{f}: unescaped quote in {key}"
+                continue
+            assert ": " not in val and " #" not in val, f"{f}: unquoted {key} contains ': ' or ' #'"
+            assert not val.startswith(YAML_UNSAFE_START), f"{f}: unquoted {key} starts with a YAML indicator"
+
+
 def test_versions_agree(root: Path, atw):
     plugin = json.loads((root / "plugin" / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
     pyproject = (root / "pyproject.toml").read_text(encoding="utf-8")

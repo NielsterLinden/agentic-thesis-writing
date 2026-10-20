@@ -1,6 +1,6 @@
 ---
-description: Read-only critique of a thesis section or an evidence note against the grounding, framing, writing and figure checklists. Runs the reviewer agent; edits nothing.
-argument-hint: <path-to-tex-section-or-evidence-note> [chapter kind: framing|results|synthesis]
+description: "Read-only critique of a thesis section or an evidence note against the grounding, framing, writing and figure checklists. Runs the reviewer agent; edits nothing."
+argument-hint: "<path-to-tex-section-or-evidence-note> [chapter kind: framing|results|synthesis]"
 ---
 
 Invoke the `reviewer` subagent for `$ARGUMENTS`. If subagents are unavailable in this tool,

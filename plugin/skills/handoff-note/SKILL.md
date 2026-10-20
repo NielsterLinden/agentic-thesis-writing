@@ -1,6 +1,6 @@
 ---
 name: handoff-note
-description: Write or read a task handoff note in docs/handoffs/ so that another agent, another session, or your future self can resume multi-step work without re-deriving it. Use at the end of a session, when work crosses an agent boundary, or before any step that needs the user's decision.
+description: "Write or read a task handoff note in docs/handoffs/ so that another agent, another session, or your future self can resume multi-step work without re-deriving it. Use at the end of a session, when work crosses an agent boundary, or before any step that needs the user's decision."
 ---
 
 # handoff-note

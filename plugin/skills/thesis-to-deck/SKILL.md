@@ -1,6 +1,6 @@
 ---
 name: thesis-to-deck
-description: Turn finished thesis chapters and evidence notes into a defence-talk plan (three-act storyline, slide list, provenance manifest) and per-clip briefs in the manim-hep storyline format, so manim-hep's agents can build the animations. Use when planning slides, recreating a thesis figure as an animation, or checking that a number on a slide traces to an evidence note.
+description: "Turn finished thesis chapters and evidence notes into a defence-talk plan (three-act storyline, slide list, provenance manifest) and per-clip briefs in the manim-hep storyline format, so manim-hep's agents can build the animations. Use when planning slides, recreating a thesis figure as an animation, or checking that a number on a slide traces to an evidence note."
 ---
 
 # thesis-to-deck

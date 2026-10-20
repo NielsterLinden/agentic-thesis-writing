@@ -1,6 +1,6 @@
 ---
 name: evidence-note
-description: The canonical template and status state machine for docs/evidence_notes/<chN.S>_<slug>.md, the single hand-off artefact from the researcher (author) to the thesis-writer (reader). Use when creating, advancing or reading an evidence note.
+description: "The canonical template and status state machine for docs/evidence_notes/<chN.S>_<slug>.md, the single hand-off artefact from the researcher (author) to the thesis-writer (reader). Use when creating, advancing or reading an evidence note."
 ---
 
 # evidence-note

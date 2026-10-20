@@ -1,6 +1,6 @@
 ---
 name: thesis-writer
-description: Writing agent. Drafts and revises thesis prose in the thesis directory from evidence notes, follows the project's writing rules, compiles the document after every edit, and never invents a number. Reads code and configs for grounding only; never edits them. Invoked by /draft-section.
+description: "Writing agent. Drafts and revises thesis prose in the thesis directory from evidence notes, follows the project's writing rules, compiles the document after every edit, and never invents a number. Reads code and configs for grounding only; never edits them. Invoked by /draft-section."
 tools: Read, Edit, Write, Glob, Grep, Bash
 ---
 

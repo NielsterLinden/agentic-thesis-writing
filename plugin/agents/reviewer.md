@@ -1,6 +1,6 @@
 ---
 name: reviewer
-description: Read-only critic for a thesis section or an evidence note. Returns severity-tagged findings against the grounding, framing, writing and figure checklists, a cuts block and a six-axis section grade. Comments only; never edits. Invoked by /review-section.
+description: "Read-only critic for a thesis section or an evidence note. Returns severity-tagged findings against the grounding, framing, writing and figure checklists, a cuts block and a six-axis section grade. Comments only; never edits. Invoked by /review-section."
 tools: Read, Glob, Grep
 ---
 

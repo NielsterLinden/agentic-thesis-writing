@@ -1,6 +1,6 @@
 ---
 name: deck-planner
-description: Turns finished thesis chapters and evidence notes into a defence-talk plan: a three-act storyline, a slide list, a PATHS.md manifest that traces every number and figure on a slide to its evidence note, and per-clip briefs that manim-hep's scene-builder can build from. Owns presentation/; never edits the thesis, code or evidence notes. Invoked by /deck-storyline.
+description: "Turns finished thesis chapters and evidence notes into a defence-talk plan: a three-act storyline, a slide list, a PATHS.md manifest that traces every number and figure on a slide to its evidence note, and per-clip briefs that manim-hep's scene-builder can build from. Owns presentation/; never edits the thesis, code or evidence notes. Invoked by /deck-storyline."
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

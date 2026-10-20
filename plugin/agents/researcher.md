@@ -1,6 +1,6 @@
 ---
 name: researcher
-description: Research agent. Triages a thesis section's evidence need, inspects what already exists, stages or runs the cheapest analysis that answers the question, and records the result in an evidence note for the thesis-writer. Never edits thesis prose; never submits long jobs; never invents results. Invoked by /extract-evidence.
+description: "Research agent. Triages a thesis section's evidence need, inspects what already exists, stages or runs the cheapest analysis that answers the question, and records the result in an evidence note for the thesis-writer. Never edits thesis prose; never submits long jobs; never invents results. Invoked by /extract-evidence."
 tools: Read, Edit, Write, Glob, Grep, Bash
 ---
 

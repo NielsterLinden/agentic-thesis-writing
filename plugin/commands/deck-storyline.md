@@ -1,6 +1,6 @@
 ---
-description: Plan the defence talk from the thesis: three-act storyline, slide list, a provenance manifest for every number and figure on a slide, and per-clip briefs for manim-hep. Runs the deck-planner agent; never edits the thesis.
-argument-hint: [talk length in minutes] [chapters to cover]
+description: "Plan the defence talk from the thesis: three-act storyline, slide list, a provenance manifest for every number and figure on a slide, and per-clip briefs for manim-hep. Runs the deck-planner agent; never edits the thesis."
+argument-hint: "[talk length in minutes] [chapters to cover]"
 ---
 
 Invoke the `deck-planner` subagent for `$ARGUMENTS` (default: a 25-minute talk covering

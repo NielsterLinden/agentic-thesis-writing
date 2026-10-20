@@ -1,6 +1,6 @@
 ---
-description: Light figure polish. Either a caption-only fix, or a single surgical change to the plotting code followed by regeneration of that one figure and re-import into a new timestamped directory. Runs the thesis-polisher in plot mode.
-argument-hint: <fig-label | figure-path> ["quoted instruction, e.g. make the y-axis label larger"]
+description: "Light figure polish. Either a caption-only fix, or a single surgical change to the plotting code followed by regeneration of that one figure and re-import into a new timestamped directory. Runs the thesis-polisher in plot mode."
+argument-hint: "<fig-label | figure-path> [\"quoted instruction, e.g. make the y-axis label larger\"]"
 ---
 
 Invoke the `thesis-polisher` subagent in **plot mode** for `$ARGUMENTS`. If subagents are

@@ -1,6 +1,6 @@
 ---
 name: thesis-setup
-description: Install or update agentic-thesis-writing in the current repository: fetch the kit, run the installer, fill the Project map in AGENTS.md, check the TeX toolchain, build the template once, and run the writing-rules linter. Use when the user asks to set up, install, update or configure the thesis-writing agents.
+description: "Install or update agentic-thesis-writing in the current repository: fetch the kit, run the installer, fill the Project map in AGENTS.md, check the TeX toolchain, build the template once, and run the writing-rules linter. Use when the user asks to set up, install, update or configure the thesis-writing agents."
 ---
 
 # thesis-setup

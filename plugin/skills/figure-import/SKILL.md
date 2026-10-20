@@ -1,6 +1,6 @@
 ---
 name: figure-import
-description: Promote a figure from the research output area into the thesis figure tree at <thesis>/figures/ch<N>/<YYYYMMDD-HHMMSS>_<slug>/, additively, and record the source path and the active figure directory back into the evidence note. The only sanctioned way a figure enters the thesis directory. Use whenever a plot must land in LaTeX.
+description: "Promote a figure from the research output area into the thesis figure tree at <thesis>/figures/ch<N>/<YYYYMMDD-HHMMSS>_<slug>/, additively, and record the source path and the active figure directory back into the evidence note. The only sanctioned way a figure enters the thesis directory. Use whenever a plot must land in LaTeX."
 ---
 
 # figure-import

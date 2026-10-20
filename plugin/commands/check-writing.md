@@ -1,6 +1,6 @@
 ---
-description: Check .tex prose against the writing rules: run the mechanical linter, then read for what it cannot judge, and return a numbered severity-tagged list. Read-only. Runs the writing-rules-checker agent.
-argument-hint: <path-to-tex-file-or-directory> [--fail-on MINOR|MAJOR]
+description: "Check .tex prose against the writing rules: run the mechanical linter, then read for what it cannot judge, and return a numbered severity-tagged list. Read-only. Runs the writing-rules-checker agent."
+argument-hint: "<path-to-tex-file-or-directory> [--fail-on MINOR|MAJOR]"
 ---
 
 Invoke the `writing-rules-checker` subagent for `$ARGUMENTS`. If subagents are unavailable

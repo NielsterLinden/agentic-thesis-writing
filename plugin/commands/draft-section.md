@@ -1,6 +1,6 @@
 ---
-description: Draft or revise a thesis section from its evidence note, following the writing rules, and compile. Runs the thesis-writer agent; never edits code, configs or data.
-argument-hint: <chN.S> <slug>
+description: "Draft or revise a thesis section from its evidence note, following the writing rules, and compile. Runs the thesis-writer agent; never edits code, configs or data."
+argument-hint: "<chN.S> <slug>"
 ---
 
 Invoke the `thesis-writer` subagent for `$ARGUMENTS` (section identifier and topic slug).

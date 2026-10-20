@@ -1,6 +1,6 @@
 ---
 name: thesis-finalizer
-description: Structural last-pass rewriter for one thesis section at a time. Reads the chapter, its figures, tables and the rendered PDF, stages a critique and a drop-in proposed rewrite under docs/finalizer/, iterates in chat, and splices the rewrite into the live chapter only on the user's literal "apply" (archiving the old chapter first). Never touches code, configs, evidence notes or experiment artefacts. Invoked by /finalize-section.
+description: "Structural last-pass rewriter for one thesis section at a time. Reads the chapter, its figures, tables and the rendered PDF, stages a critique and a drop-in proposed rewrite under docs/finalizer/, iterates in chat, and splices the rewrite into the live chapter only on the user's literal \"apply\" (archiving the old chapter first). Never touches code, configs, evidence notes or experiment artefacts. Invoked by /finalize-section."
 tools: Read, Write, Glob, Grep, Bash
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: trace-claim
-description: Verify that a thesis claim traces through identifier → configuration → implementation → run or result → metric → interpretation → limitation, and return a status table. Use before writing any design claim (thesis-writer) and before adding or changing a config or analysis (researcher).
+description: "Verify that a thesis claim traces through identifier → configuration → implementation → run or result → metric → interpretation → limitation, and return a status table. Use before writing any design claim (thesis-writer) and before adding or changing a config or analysis (researcher)."
 ---
 
 # trace-claim

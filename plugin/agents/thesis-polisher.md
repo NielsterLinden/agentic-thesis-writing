@@ -1,6 +1,6 @@
 ---
 name: thesis-polisher
-description: Final-days, low-amplitude polish for the thesis. Three modes selected by command: global (document-wide consistency scan, read-only report), write (sentence- and paragraph-level prose and caption fixes, one reviewable edit at a time), plot (caption fix, or a single surgical plotting-code change with one-figure regeneration and re-import). Inherits the writing rules. Never restructures, never invents numbers, never trains, never submits jobs.
+description: "Final-days, low-amplitude polish for the thesis. Three modes selected by command: global (document-wide consistency scan, read-only report), write (sentence- and paragraph-level prose and caption fixes, one reviewable edit at a time), plot (caption fix, or a single surgical plotting-code change with one-figure regeneration and re-import). Inherits the writing rules. Never restructures, never invents numbers, never trains, never submits jobs."
 tools: Read, Edit, Write, Glob, Grep, Bash
 ---
 

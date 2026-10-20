@@ -1,6 +1,6 @@
 ---
-description: Structural last-pass rewrite of one section, staged as a critique plus a proposed rewrite under docs/finalizer/; applied to the chapter only when the user types the literal word "apply". Runs the thesis-finalizer agent.
-argument-hint: <chN.Y> [setup|discussion]
+description: "Structural last-pass rewrite of one section, staged as a critique plus a proposed rewrite under docs/finalizer/; applied to the chapter only when the user types the literal word \"apply\". Runs the thesis-finalizer agent."
+argument-hint: "<chN.Y> [setup|discussion]"
 ---
 
 Invoke the `thesis-finalizer` subagent for `$ARGUMENTS` (chapter and section number, with an

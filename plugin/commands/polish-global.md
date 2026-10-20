@@ -1,6 +1,6 @@
 ---
-description: Document-wide consistency scan (abbreviations, terminology, notation, identifiers, dashes, forbidden forms, cross-references, metric definitions). Read-only report; edits only when the user names items. Runs the thesis-polisher in global mode.
-argument-hint: [optional chapter or topic scope]
+description: "Document-wide consistency scan (abbreviations, terminology, notation, identifiers, dashes, forbidden forms, cross-references, metric definitions). Read-only report; edits only when the user names items. Runs the thesis-polisher in global mode."
+argument-hint: "[optional chapter or topic scope]"
 ---
 
 Invoke the `thesis-polisher` subagent in **global mode** for `$ARGUMENTS` (no argument:

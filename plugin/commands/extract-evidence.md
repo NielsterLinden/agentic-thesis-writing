@@ -1,6 +1,6 @@
 ---
-description: Triage and stage (or run) the analysis behind a thesis section, and record it in an evidence note. Runs the researcher agent; never edits the thesis directory.
-argument-hint: <chN.S> <slug>
+description: "Triage and stage (or run) the analysis behind a thesis section, and record it in an evidence note. Runs the researcher agent; never edits the thesis directory."
+argument-hint: "<chN.S> <slug>"
 ---
 
 Invoke the `researcher` subagent for `$ARGUMENTS` (section identifier and topic slug). If

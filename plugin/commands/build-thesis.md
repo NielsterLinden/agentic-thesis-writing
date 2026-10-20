@@ -1,6 +1,6 @@
 ---
-description: Build the thesis PDF with latexmk, read the log on failure, and report a one-line verdict plus the page count. Uses the latex-build skill.
-argument-hint: [-gg | -C | -pdf]
+description: "Build the thesis PDF with latexmk, read the log on failure, and report a one-line verdict plus the page count. Uses the latex-build skill."
+argument-hint: "[-gg | -C | -pdf]"
 ---
 
 Build the thesis using the `latex-build` skill, with the option in `$ARGUMENTS` if any:

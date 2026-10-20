@@ -1,6 +1,6 @@
 ---
-description: Write a task handoff note in docs/handoffs/ so that another agent, another session or your future self can resume the current work cold. Uses the handoff-note skill.
-argument-hint: <slug> ["quoted title"]
+description: "Write a task handoff note in docs/handoffs/ so that another agent, another session or your future self can resume the current work cold. Uses the handoff-note skill."
+argument-hint: "<slug> [\"quoted title\"]"
 ---
 
 Write a handoff note for the work in progress, using the `handoff-note` skill, for
